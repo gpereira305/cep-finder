@@ -18,13 +18,14 @@ mostrados na tela.
 - Abra um terminal em uma pasta de sua escolha e cole o link HTTPS.
 - Certifique-se de ter instalado o Node em uma versão superior a 14.0.
 - Após baixar o pojeto em um diretório de sua escolha abra o em um ternimal.  
-- No diretório raiz digite  "npm install" e por fim, "npm run dev"
+- No diretório raiz digite  "npm install" e por fim, "npm run serve"
 - A aplicação estará disponível no endereço "http://localhost:8080".
 - Digite o endereço "http://localhost:8080" no browser para poder visualisá-lo.
 <hr>
 
 ## **Screenshots**
 
+<img src="./src/assets/images/screen-3.png" /> 
 <img src="./src/assets/images/screen-1.png" />
 <img src="./src/assets/images/screen-2.png" />
-<img src="./src/assets/images/screen-3.png" /> 
+
