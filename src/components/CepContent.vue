@@ -81,11 +81,20 @@ export default {
   // ====== methods =====
   methods: {
     getCep() {
+    if(!this.cep) {
+      alert("Digite CEP para adicionar!");
+      return
+    } else  if(this.cep.length < 8){ 
+      alert("Digite CEP válido!");
+      this.cep = null;
+      return
+    }
       const url = `${this.baseUrl}/${this.cep}/json/`;
       axios
         .get(url)
         .then((res) => {
           const data = res.data;
+
           if (!data.erro) {
             this.response = data;
             this.cepData.push(data); 
@@ -93,7 +102,7 @@ export default {
           } else {
             alert("CEP não encontrado");
             this.cep = null;
-          }
+          } 
         })
         .catch((error) => console.error(error));
     },
