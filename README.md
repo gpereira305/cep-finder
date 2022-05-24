@@ -25,6 +25,7 @@ mostrados na tela.
 
 ## **Screenshots**
 
+<img src="./src/assets/images/screen-3.png" /> 
 <img src="./src/assets/images/screen-1.png" />
 <img src="./src/assets/images/screen-2.png" />
-<img src="./src/assets/images/screen-3.png" /> 
+
